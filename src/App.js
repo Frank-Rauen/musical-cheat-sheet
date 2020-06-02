@@ -6,6 +6,7 @@ import './App.css'
 //Reusables
 
 import Navbar from '../src/components/Navbar/Navbar';
+import Metronome from '../src/components/Metronome/Metronome';
 
 //Pages
 
@@ -21,6 +22,9 @@ class App extends Component {
         <Switch>
           <Route exact path='/' render={props =>
           <Home />
+          } />
+          <Route exact path='/metronome' render={props =>
+          <Metronome />
           } />
         </Switch>
         </div>
