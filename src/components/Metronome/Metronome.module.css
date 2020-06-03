@@ -29,3 +29,11 @@
     box-shadow: 2px 2px 7px 2px rgb(26, 26, 26);
 
 }
+
+.header {
+    background-color: rgba(255, 87, 57, 0.432);
+    font-size: 18px;
+    opacity: 65%;
+    text-align: center;
+    margin: auto 0;
+}

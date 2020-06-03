@@ -6,11 +6,12 @@ import './App.css'
 //Reusables
 
 import Navbar from '../src/components/Navbar/Navbar';
-import Metronome from '../src/components/Metronome/Metronome';
+import Footer from '../src/components/Footer/Footer';
 
 //Pages
 
 import Home from '../src/pages/Home/Home';
+import Metronome from '../src/components/Metronome/Metronome';
 
 class App extends Component {
   render() {
@@ -28,6 +29,7 @@ class App extends Component {
           } />
         </Switch>
         </div>
+        <Footer />
       </div>
     )
   }

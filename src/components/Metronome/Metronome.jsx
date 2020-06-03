@@ -74,7 +74,7 @@ class Metronome extends Component {
 
         return(
         <div className={styles.metronome}>
-            <header>Metronome</header>
+            <header className={styles.header}>Metronome</header>
             <div className={styles.description}>
             <h1>The metronome is the most important tool you have
                 for improving your rhythm. Set your BPM (beats per minute) with the slider.</h1>
