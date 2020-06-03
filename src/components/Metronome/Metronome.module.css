@@ -19,3 +19,13 @@
     color: #fff;
     font-size: 18px;
 }
+
+.description {
+    color: #fff;
+    font-size: 8px;
+    background: #c94d46;
+    margin: 0 auto;
+    border: 12px;
+    box-shadow: 2px 2px 7px 2px rgb(26, 26, 26);
+
+}
