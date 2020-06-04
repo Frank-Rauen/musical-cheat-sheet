@@ -1,6 +1,7 @@
 .modal {
     border-radius: 1rem;
-    width: calc(50% - 6px);
+    width: 115px;
+    height: 115px;
     border: 2px solid rgb(170, 38, 5);
     background-color: rgb(180, 180, 180);
     margin: 3px;
@@ -17,4 +18,8 @@
     font-style: oblique;
     display: flex;
     flex-wrap: wrap;
+}
+
+.container {
+    margin: 15px 15px 15px 15px;
 }

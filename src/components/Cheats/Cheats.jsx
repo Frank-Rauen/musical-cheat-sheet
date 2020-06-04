@@ -4,6 +4,7 @@ import styles from './Cheats.module.css';
 
 //Images
 import modes from '../Cheats/images/modes.png'
+import chords from '../Cheats/images/guitar-chords.jpg'
 
 class Cheats extends Component {
     render() {
@@ -17,6 +18,15 @@ class Cheats extends Component {
                 alt = 'Guitar Modes'
                 />
                 <p>Basic Guitar Modes</p>
+            </div>
+            <div className={styles.container}>
+                <ModalImage 
+                className ={styles.modal}
+                small = {chords}
+                large = {chords}
+                alt = 'Guitar Modes'
+                />
+                <p>Basic Guitar Chord Shapes</p>
             </div>
             </div>
         )
