@@ -1,0 +1,10 @@
+.modal {
+    border-radius: 1rem;
+    width: calc(20% - 6px);
+    border: 5px solid rgb(2, 30, 83);
+    background-color: rgb(180, 180, 180);
+    margin: 3px;
+    box-sizing: border-box;
+    padding: 8px;
+    color: rgb(5, 50, 134);
+}

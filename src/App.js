@@ -12,6 +12,7 @@ import Footer from '../src/components/Footer/Footer';
 
 import Home from '../src/pages/Home/Home';
 import Metronome from '../src/components/Metronome/Metronome';
+import Cheats from '../src/components/Cheats/Cheats';
 
 class App extends Component {
   render() {
@@ -26,6 +27,9 @@ class App extends Component {
           } />
           <Route exact path='/metronome' render={props =>
           <Metronome />
+          } />
+          <Route exact path='/cheat-sheets' render={props =>
+          <Cheats />
           } />
         </Switch>
         </div>
