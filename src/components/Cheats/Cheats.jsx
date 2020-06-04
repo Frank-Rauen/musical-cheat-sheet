@@ -9,12 +9,15 @@ class Cheats extends Component {
     render() {
         return(
             <div className={styles.modals}>
+            <div className={styles.container}>
                 <ModalImage 
                 className ={styles.modal}
                 small = {modes}
                 large = {modes}
                 alt = 'Guitar Modes'
                 />
+                <p>Basic Guitar Modes</p>
+            </div>
             </div>
         )
     }
