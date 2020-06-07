@@ -8,7 +8,8 @@ const Navbar = (props) => {
     <nav className={styles.navbar}>
     <Link to='/'><h1>Musical Cheat Sheet</h1></Link>
     <li><Link to='/'>Home</Link></li>
-    <li><Link to='cheat-sheets'>Cheat Sheets</Link></li>
+    <li><Link to='/cheat-sheets'>Cheat Sheets</Link></li>
+    <li><Link to='/sheet-music'>Sheet Music</Link></li>
     <li><Link to='/metronome'>Metronome</Link></li>
     </nav>
     </Fragment>
