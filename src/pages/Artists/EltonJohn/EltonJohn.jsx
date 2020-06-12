@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
@@ -7,7 +7,8 @@ let styles = {
     width: '500px'
   };
   
-function eltonJohn() {
+class eltonJohn extends Component {
+render() {
   return (
 	<div style={styles}>
 		<Carousel>
@@ -30,6 +31,7 @@ function eltonJohn() {
 		</Carousel>
 	</div>
   );
+	}
 }
 
 export default eltonJohn;

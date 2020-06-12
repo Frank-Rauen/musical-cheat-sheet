@@ -18,7 +18,10 @@ class Sheets extends Component {
                     Sheet Music
                 </header>
                 <div className={styles.links}> 
-                    <img src={EltonJohn} alt="Elton John"/>
+                    <div>
+                    <Link to='/sheet-music/elton-john' render={eltonJohn}><img src={EltonJohn} alt="Elton John"/>
+                    <p>Elton John</p></Link>
+                    </div>
                 </div>
             </div>
         )

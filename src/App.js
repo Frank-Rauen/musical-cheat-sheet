@@ -15,6 +15,10 @@ import Metronome from '../src/components/Metronome/Metronome';
 import Cheats from '../src/components/Cheats/Cheats';
 import Sheets from '../src/components/Sheets/Sheets';
 
+//Artist sheets 
+
+import eltonJohn from '../src/pages/Artists/EltonJohn/EltonJohn'
+
 class App extends Component {
   render() {
     return (
