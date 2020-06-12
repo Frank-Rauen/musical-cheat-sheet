@@ -24,7 +24,9 @@ class Sheets extends Component {
                 </header>
                 <div className={styles.links}> 
                     <div>
-                    <Link to='/sheet-music/elton-john' render={eltonJohn}><img src={EltonJohn} alt="Elton John"/>
+                    <Link to='/sheet-music/elton-john' render={ props =>
+                    <eltonJohn />
+                    }><img src={EltonJohn} alt="Elton John"/>
                     <p>Elton John</p></Link>
                     </div>
                 </div>
