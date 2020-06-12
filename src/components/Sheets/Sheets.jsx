@@ -11,6 +11,11 @@ import eltonJohn from '../../pages/Artists/EltonJohn/EltonJohn';
 
 
 class Sheets extends Component {
+
+    state = {
+        sheets: []
+    }
+
     render() {
         return(
             <div className='app-outer-container'>
